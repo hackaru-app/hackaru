@@ -1,3 +1,5 @@
+# Hackaru
+
 <img src="./docs/images/header.png">
 
 ## What?
