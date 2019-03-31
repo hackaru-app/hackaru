@@ -1,6 +1,6 @@
 # Hackaru
 
-<img src="./docs/images/header.png">
+![Header](./docs/images/header.png)
 
 ## What?
 Hackaru (測る) is Simple Timetracking App.  
@@ -52,6 +52,15 @@ $ docker-compose up
 $ docker-compose run --rm api rails db:create db:migrate
 ```
 7. You can access Hackaru from http://localhost:3000.
+
+## ScreenShots
+
+### Timer Modal
+![Timer Modal](./docs/images/modal_screen.png)
+### Calendar
+![Calendar](./docs/images/calendar_screen.png)
+### Report
+![Report](./docs/images/report_screen.png)
 
 ## How is it working?
 ![Architecture](./docs/images/architecture.png)
