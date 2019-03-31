@@ -1,4 +1,4 @@
-![Header](./docs/images/header.png)
+<img src="./docs/images/header.png">
 
 ## What?
 Hackaru (測る) is Simple Timetracking App.  
