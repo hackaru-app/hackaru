@@ -4,7 +4,7 @@
 Hackaru (測る) is Simple Timetracking App.  
 > "測る" means "Measure" in Japanese.
 
-### Features
+## Features
 
 - PWA support. It can use on iOS and Android.
 - OAuth2 authentication support.
@@ -31,7 +31,6 @@ $ cp .env.web.sample .env.web
 You can use `rake:secret` command to generate secrets.  
 ```
 $ docker-compose run --rm api rails db:create db:migrate
-b75ed1d79e4db7aefa5f... # Copy this secret to clipboard.
 ```
 We strongly recommend to `JWT_SECRET` set different value from `SECRET_KEY_BASE.`  
 ```
@@ -58,11 +57,11 @@ $ docker-compose run --rm api rails db:create db:migrate
 - API container serve RESTful API and OAuth2 authentication.
 - Web container send HTML/CSS/JS to browser. and fetch JSON from API server on a background.
 
-### Repositories
-- API - [ktmouk/hackaru-web](https://github.com/ktmouk/hackaru-web)
-- WebUI - [ktmouk/hackaru-api](https://github.com/ktmouk/hackaru-api)
+## Related Repositories
+- [ktmouk/hackaru-web](https://github.com/ktmouk/hackaru-web)
+- [ktmouk/hackaru-api](https://github.com/ktmouk/hackaru-api)
 
-## Fix, Feedback
+## Feedback
 - If you found bad English :memo:, or have a new idea :bulb:, Please send PullRequest! :relaxed:
 
 ## License
