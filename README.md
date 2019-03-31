@@ -52,7 +52,7 @@ $ docker-compose run --rm api rails db:create db:migrate
 7. You can access Hackaru from http://localhost:3000.
 
 ## How is it working?
-![Architecture](./docs/images/architecture.svg)
+![Architecture](./docs/images/architecture.png)
 
 - API container serve RESTful API and OAuth2 authentication.
 - Web container send HTML/CSS/JS to browser. and fetch JSON from API server on a background.
