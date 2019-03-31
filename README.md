@@ -56,7 +56,7 @@ $ docker-compose run --rm api rails db:create db:migrate
 ## ScreenShots
 
 ### Timer Modal
-![Timer Modal](./docs/images/modal_screen.png)
+![Timer Modal](./docs/images/home_screen.png)
 ### Calendar
 ![Calendar](./docs/images/calendar_screen.png)
 ### Report
