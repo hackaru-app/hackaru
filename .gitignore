@@ -1,0 +1,6 @@
+# Dotenv
+/.env*
+!.env.*.sample
+
+# MacOS
+.DS_Store

@@ -1,0 +1,38 @@
+version: '3'
+services:
+  db:
+    image: postgres:10.3
+    ports:
+      - 5432:5432
+
+  redis:
+    image: redis:4.0
+    ports:
+      - 6379:6379
+
+  sidekiq:
+    image: ktmouk/hackaru-api:0.1.0
+    env_file: .env.api
+    command: bundle exec sidekiq
+      -q hackaru-api_production_default
+      -q hackaru-api_production_mailers
+    links:
+      - db
+      - redis
+
+  api:
+    build: .
+    image: ktmouk/hackaru-api:0.1.0
+    env_file: .env.api
+    command: /bin/sh -c 'rm -f tmp/pids/server.pid && rails s -b 0.0.0.0'
+    ports:
+      - 3000:3000
+    links:
+      - db
+      - redis
+
+  web:
+    image: ktmouk/hackaru-web:0.1.0
+    env_file: .env.web
+    ports:
+      - 3333:3333
