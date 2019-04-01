@@ -62,7 +62,7 @@ $ docker-compose run --rm api rails db:create db:migrate
 ### Report
 ![Report](./docs/images/report_screen.png)
 
-## How is it working?
+## How does it working?
 ![Architecture](./docs/images/architecture.png)
 
 - API container serve RESTful API and OAuth2 authentication.
