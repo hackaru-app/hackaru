@@ -18,7 +18,7 @@ Hackaru (測る) is Simple Timetracking App.
 You can use Hackaru on the official website. It's free.
 - https://www.hackaru.app
 
-> <a href="https://www.buymeacoffee.com/T4KDHBPV6" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>   
+> <a href="https://www.buymeacoffee.com/T4KDHBPV6"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>   
 > If you like this app, please consider buying me a coffee. :relaxed:
 
 ## Use on Docker
