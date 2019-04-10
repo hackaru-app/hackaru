@@ -12,8 +12,16 @@ Hackaru (測る) is Simple Timetracking App.
 - OAuth2 authentication support.
 - Webhook Support (e.g., Timer started, Timer stopped)
 - Completely open source. You can build on your server.
+- You can time automatically you are using favorite Applications. See [Hackaru for Desktop](https://github.com/ktmouk/hackaru-desktop)
 
-## Usage
+## Official website
+You can use Hackaru on the official website. It's free.
+- https://www.hackaru.app
+
+> <a href="https://www.buymeacoffee.com/T4KDHBPV6"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>   
+> If you like this app, please consider buying me a coffee. :relaxed:
+
+## Use on Docker
 
 1. Install [Docker](https://docs.docker.com/install/) and [Docker Compose](https://docs.docker.com/compose/install/).
 
@@ -71,6 +79,7 @@ $ docker-compose run --rm api rails db:create db:migrate
 ## Related Repositories
 - [ktmouk/hackaru-web](https://github.com/ktmouk/hackaru-web)
 - [ktmouk/hackaru-api](https://github.com/ktmouk/hackaru-api)
+- [ktmouk/hackaru-desktop](https://github.com/ktmouk/hackaru-desktop)
 
 ## Feedback
 - If you found bad English :memo:, or have a new idea :bulb:, Please send PullRequest! :relaxed:
