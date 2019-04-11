@@ -18,7 +18,7 @@ Hackaru (測る) はシンプルなタイムトラッキングアプリです。
 - [Hackaru for Desktop](https://github.com/ktmouk/hackaru-desktop) と連携すれば、普段使っているアプリの使用時間を自動で計測できます。(Atom Editor、Illustrator など)
 
 ## 公式サイト
-下記のサイトでサービスを無償提供しています！環境を構築するのが面倒な方は、ぜひお試しください。
+下記のサイトでサービスを無償提供しています。環境を構築するのが面倒な方は、ぜひお試しください。
 - https://www.hackaru.app
 
 > <a href="https://www.buymeacoffee.com/T4KDHBPV6"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>   
@@ -89,7 +89,7 @@ $ docker-compose run --rm api rails db:create db:migrate
 - [ktmouk/hackaru-desktop](https://github.com/ktmouk/hackaru-desktop)
 
 ## フィードバック
-- おかしな英語 :memo:、 欲しい機能のリクエスト :bulb:、 があればぜひプルリクエストをお送りください。 :relaxed:
+- 英文のミス :memo:、 欲しい機能のリクエスト :bulb:、 があればぜひプルリクエストをお送りください。 :relaxed:
 
 ## ライセンス
 - [MIT](./LICENSE)
