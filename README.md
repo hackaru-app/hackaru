@@ -1,3 +1,7 @@
+[English](./README.md) | [日本語](./README.md)
+
+---
+
 # Hackaru
 
 ![Header](./docs/images/header.png)
@@ -8,7 +12,7 @@ Hackaru (測る) is Simple Timetracking App.
 
 ## Features
 
-- PWA support. It can use on iOS and Android.
+- [PWA](https://developers.google.com/web/progressive-web-apps/)  support. It can use on iOS and Android.
 - OAuth2 authentication support.
 - Webhook Support (e.g., Timer started, Timer stopped)
 - Completely open source. You can build on your server.
