@@ -9,15 +9,14 @@ Hackaru is the simple time tracking application.
 
 ## Screens
 
-<img src="./docs/images/home_screen.png" width="400" />  
-<img src="./docs/images/calendar_screen.png" width="400" />  
-<img src="./docs/images/report_screen.png" width="400" />  
+<img src="./docs/images/calendar_screen.png?" width="500" />  
+<img src="./docs/images/report_screen.png?" width="500" />  
 
 ## Features
 
 - [PWA](https://developers.google.com/web/progressive-web-apps/)  support. You can use on iOS and Android.
 - OAuth 2.0 provider support.
-- Webhook Support (e.g., Timer started, Timer stopped)
+- Webhook Support.
 - Open-source. You can build on your server.
 - You can time automatically you are using favorite Applications. See [Hackaru for Desktop](https://github.com/ktmouk/hackaru-desktop)
 
