@@ -1,7 +1,7 @@
-<div align="center">
+<p align="center">
   <p align="center"><img src="./docs/images/logo.png" width="26" /></p>
   <p align="center" style="color: #666;">Manage your meaningful time.</p>
-</div>
+</p>
 
 ## What's Hackaru?
 Hackaru is the simple time tracking application.
@@ -9,9 +9,9 @@ Hackaru is the simple time tracking application.
 
 ## Screens
 
-<img src="./docs/images/home_screen.png" width="400" style="border: 1px #eee solid; padding: 5px; border-radius: 5px; margin: 20px" />  
-<img src="./docs/images/calendar_screen.png" width="400" style="border: 1px #eee solid; padding: 5px; border-radius: 5px; margin: 20px" />  
-<img src="./docs/images/report_screen.png" width="400" style="border: 1px #eee solid; padding: 5px; border-radius: 5px; margin: 20px" />  
+<img src="./docs/images/home_screen.png" width="400" />  
+<img src="./docs/images/calendar_screen.png" width="400" />  
+<img src="./docs/images/report_screen.png" width="400" />  
 
 ## Features
 
