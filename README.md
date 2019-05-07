@@ -1,6 +1,6 @@
-<div style="text-align: center; margin: 40px 0;">
-  <img src="./docs/images/logo.png" width="26" style="margin: 20px" />  
-  <p style="color: #666;">Manage your meaningful time.</p>
+<div align="center">
+  <p align="center"><img src="./docs/images/logo.png" width="26" /></p>
+  <p align="center" style="color: #666;">Manage your meaningful time.</p>
 </div>
 
 ## What's Hackaru?
