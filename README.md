@@ -1,88 +1,51 @@
-# Hackaru
+<div style="text-align: center; margin: 40px 0;">
+  <img src="./docs/images/logo.png" width="26" style="margin: 20px" />  
+  <p style="color: #666;">Manage your meaningful time.</p>
+</div>
 
-![Header](./docs/images/header.png)
+## What's Hackaru?
+Hackaru is the simple time tracking application.
+> Hackaru (測る) means "Measure" in Japanese.
 
-## What?
-Hackaru (測る) is Simple Timetracking App.  
-> "測る" means "Measure" in Japanese.
+## Screens
+
+<img src="./docs/images/home_screen.png" width="400" style="border: 1px #eee solid; padding: 5px; border-radius: 5px; margin: 20px" />  
+<img src="./docs/images/calendar_screen.png" width="400" style="border: 1px #eee solid; padding: 5px; border-radius: 5px; margin: 20px" />  
+<img src="./docs/images/report_screen.png" width="400" style="border: 1px #eee solid; padding: 5px; border-radius: 5px; margin: 20px" />  
 
 ## Features
 
-- [PWA](https://developers.google.com/web/progressive-web-apps/)  support. It can use on iOS and Android.
-- OAuth2 authentication support.
+- [PWA](https://developers.google.com/web/progressive-web-apps/)  support. You can use on iOS and Android.
+- OAuth 2.0 provider support.
 - Webhook Support (e.g., Timer started, Timer stopped)
-- Completely open source. You can build on your server.
+- Open-source. You can build on your server.
 - You can time automatically you are using favorite Applications. See [Hackaru for Desktop](https://github.com/ktmouk/hackaru-desktop)
 
-## Official website
+## How to use?
 You can use Hackaru on the official website. It's free.
 - https://www.hackaru.app
 
-> <a href="https://www.buymeacoffee.com/T4KDHBPV6"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>   
-> If you like this app, please consider buying me a coffee. :relaxed:
+## Use Docker
 
-## Use on Docker
-
-1. Install [Docker](https://docs.docker.com/install/) and [Docker Compose](https://docs.docker.com/compose/install/).
-
-2. Clone this repository.
+Run this commands, And access http://localhost:3000
 ```
-$ git clone https://github.com/ktmouk/hackaru.git
-$ cd /hackaru
-```
-
-3. Copy and rename sample ENV files.
-```
-$ cp .env.api.sample .env.api
-$ cp .env.web.sample .env.web
+git clone https://github.com/ktmouk/hackaru.git && \
+cd ./hackaru && \
+cp .env.api.sample .env.api && \
+cp .env.web.sample .env.web && \
+echo "SECRET_KEY_BASE=$(docker-compose run --rm api rails rake:secret)" >> .env.api && \
+echo "JWT_SECRET=$(docker-compose run --rm api rails rake:secret)" >> .env.api && \
+docker-compose run --rm api rails db:create db:migrate && \
+docker-compose up
 ```
 
-4. Set `SECRET_KEY_BASE` and `JWT_SECRET` params in `.env.api` file.  
-You can use `rake:secret` command to generate secrets.  
-```
-$ docker-compose run --rm api rails db:create db:migrate
-```
-We strongly recommend to `JWT_SECRET` set different value from `SECRET_KEY_BASE.`  
-```
-# Rails
-RAILS_ENV=production
-RAILS_LOG_TO_STDOUT=true
-SECRET_KEY_BASE=    # Set secret.
-JWT_SECRET=         # Set secret.
-...
-```
-5. Run DockerCompose.
-```
-$ docker-compose up
-```
-6. Finally, Create and migrate a database.
-```
-$ docker-compose run --rm api rails db:create db:migrate
-```
-7. You can access Hackaru from http://localhost:3000.
-
-## ScreenShots
-
-### Timer Modal
-![Timer Modal](./docs/images/home_screen.png)
-### Calendar
-![Calendar](./docs/images/calendar_screen.png)
-### Report
-![Report](./docs/images/report_screen.png)
-
-## How does it working?
-![Architecture](./docs/images/architecture.png)
-
-- API container serve RESTful API and OAuth2 authentication.
-- Web container send HTML/CSS/JS to browser. and fetch JSON from API server on a background.
-
-## Related Repositories
+## Repos
 - [ktmouk/hackaru-web](https://github.com/ktmouk/hackaru-web)
 - [ktmouk/hackaru-api](https://github.com/ktmouk/hackaru-api)
 - [ktmouk/hackaru-desktop](https://github.com/ktmouk/hackaru-desktop)
 
-## Feedback
-- If you found bad English :memo:, or have a new idea :bulb:, Please send PullRequest! :relaxed:
-
 ## License
 - [MIT](./LICENSE)
+
+## Donation
+<a href="https://www.buymeacoffee.com/T4KDHBPV6"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>  
