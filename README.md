@@ -26,7 +26,7 @@ You can use Hackaru on the official website. It's free.
 
 ## Use Docker
 
-Run this commands, And access http://localhost:3000
+Run this commands, And access http://localhost:3333
 ```
 git clone https://github.com/ktmouk/hackaru.git && \
 cd ./hackaru && \
