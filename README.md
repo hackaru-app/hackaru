@@ -42,6 +42,7 @@ docker-compose up
 - [ktmouk/hackaru-web](https://github.com/ktmouk/hackaru-web)
 - [ktmouk/hackaru-api](https://github.com/ktmouk/hackaru-api)
 - [ktmouk/hackaru-desktop](https://github.com/ktmouk/hackaru-desktop)
+- [ktmouk/hackaru-official](https://github.com/ktmouk/hackaru-official)
 
 ## License
 - [MIT](./LICENSE)
