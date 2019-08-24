@@ -34,7 +34,7 @@ cp .env.api.sample .env.api && \
 cp .env.web.sample .env.web && \
 echo "SECRET_KEY_BASE=$(docker-compose run --rm api rails rake:secret)" >> .env.api && \
 echo "JWT_SECRET=$(docker-compose run --rm api rails rake:secret)" >> .env.api && \
-docker-compose run --rm api rails db:create db:migrate && \
+docker-compose run --rm api bin/setup && \
 docker-compose up
 ```
 
