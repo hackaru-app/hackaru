@@ -9,9 +9,9 @@ Hackaru is the simple time tracking application.
 
 ## Screens
 
-<img src="./docs/images/screenshots/index.png?a=a" width="500" />
-<img src="./docs/images/screenshots/calendar.png?a=a" width="500" />
-<img src="./docs/images/screenshots/reports.png?a=a" width="500" />
+<img src="./docs/images/screenshots/index.png?a=a" width="750" />
+<img src="./docs/images/screenshots/calendar.png?a=a" width="750" />
+<img src="./docs/images/screenshots/reports.png?a=a" width="750" />
 
 ## Features
 
