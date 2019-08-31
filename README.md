@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 <p align="center">
   <p align="center"><img src="./docs/images/logo.png" width="26" /></p>
   <p align="center" style="color: #666;">Manage your time.</p>
