@@ -1,6 +1,6 @@
 <p align="center">
   <p align="center"><img src="./docs/images/logo.png" width="26" /></p>
-  <p align="center" style="color: #666;">Manage your meaningful time.</p>
+  <p align="center" style="color: #666;">Manage your time.</p>
 </p>
 
 ## What's Hackaru?
@@ -9,16 +9,16 @@ Hackaru is the simple time tracking application.
 
 ## Screens
 
-<img src="./docs/images/calendar_screen.png?" width="500" />  
-<img src="./docs/images/report_screen.png?" width="500" />  
+<img src="./docs/images/screenshots/calendar.png" width="500" />
+<img src="./docs/images/screenshots/reports.png" width="500" />
 
 ## Features
 
 - [PWA](https://developers.google.com/web/progressive-web-apps/)  support. You can use on iOS and Android.
 - OAuth 2.0 provider support.
-- Webhook Support.
+- Webhook support.
 - Open-source. You can build on your server.
-- You can time automatically you are using favorite Applications. See [Hackaru for Desktop](https://github.com/ktmouk/hackaru-desktop)
+- You can time automatically you are using favorite applications. See [Hackaru for Desktop](https://github.com/ktmouk/hackaru-desktop)
 
 ## How to use?
 You can use Hackaru on the official website. It's free.
@@ -26,7 +26,7 @@ You can use Hackaru on the official website. It's free.
 
 ## Use Docker
 
-Run this commands, And access http://localhost:3333
+Run this commands and access http://localhost:3333
 ```
 git clone https://github.com/ktmouk/hackaru.git && \
 cd ./hackaru && \
@@ -34,7 +34,7 @@ cp .env.api.sample .env.api && \
 cp .env.web.sample .env.web && \
 echo "SECRET_KEY_BASE=$(docker-compose run --rm api rails rake:secret)" >> .env.api && \
 echo "JWT_SECRET=$(docker-compose run --rm api rails rake:secret)" >> .env.api && \
-docker-compose run --rm api rails db:create db:migrate && \
+docker-compose run --rm api bin/setup && \
 docker-compose up
 ```
 
@@ -42,6 +42,7 @@ docker-compose up
 - [ktmouk/hackaru-web](https://github.com/ktmouk/hackaru-web)
 - [ktmouk/hackaru-api](https://github.com/ktmouk/hackaru-api)
 - [ktmouk/hackaru-desktop](https://github.com/ktmouk/hackaru-desktop)
+- [ktmouk/hackaru-official](https://github.com/ktmouk/hackaru-official)
 
 ## License
 - [MIT](./LICENSE)
