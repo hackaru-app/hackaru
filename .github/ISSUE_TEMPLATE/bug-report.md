@@ -20,9 +20,9 @@ Tell us what happens instead
 実際の挙動
 
 ### System
- - OS: [e.g. iOS, Windows, macOS]
- - Browser [e.g. chrome, safari, edge]
- - Version [e.g. 22]
+- OS: [e.g. iOS, Windows, macOS]
+- Browser [e.g. chrome, safari, edge]
+- Version [e.g. 22]
 
 ### Screenshots (optional)
 If applicable, add screenshots to help explain your problem.
