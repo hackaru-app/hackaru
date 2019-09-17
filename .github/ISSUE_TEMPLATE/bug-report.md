@@ -13,7 +13,7 @@ A clear and concise description of what the bug is.
 
 ### Expected behavior
 A clear and concise description of what you expected to happen.
-想定していた動作
+本来の正しい挙動
 
 ### Actual behavior
 Tell us what happens instead
