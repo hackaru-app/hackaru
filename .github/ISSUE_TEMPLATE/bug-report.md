@@ -9,15 +9,15 @@ assignees: ktmouk
 
 ### Steps to reproduce
 A clear and concise description of what the bug is.
-バグの再現方法
+バグの再現方法を教えてください。
 
 ### Expected behavior
 A clear and concise description of what you expected to happen.
-本来の正しい挙動
+正しいと思う動作を教えてください。
 
 ### Actual behavior
 Tell us what happens instead
-実際の挙動
+実際はどんな動作をしますか。
 
 ### System
 - OS: [e.g. iOS, Windows, macOS]
@@ -26,4 +26,4 @@ Tell us what happens instead
 
 ### Screenshots (optional)
 If applicable, add screenshots to help explain your problem.
-スクリーンショット (任意)
+スクリーンショットがあれば添付してください。 (任意)
