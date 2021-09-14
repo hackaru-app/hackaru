@@ -18,14 +18,14 @@ Hackaru is the simple time tracking application.
 
 - [PWA](https://developers.google.com/web/progressive-web-apps/) support. You can use on iOS and Android.
 - OAuth 2.0 provider support.
-- Open Source. You can build on your server.
+- Open source. You can build on your server.
 
 ## How to use?
 You can use Hackaru on the official website. It's free.
 - https://www.hackaru.app
 
 ## Use Docker
-You can try Hackaru on your local using [docker-compose](https://docs.docker.com/compose/install).  
+You can try Hackaru on your local in development mode using [docker-compose](https://docs.docker.com/compose/install).  
 Run below commands and access http://localhost:3333.
 
 ```
