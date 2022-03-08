@@ -7,7 +7,7 @@ services:
     image: redis:4.0
 
   sidekiq:
-    image: hackaru/hackaru-api:1
+    image: hackaru/hackaru-api:latest
     env_file: .env.api
     command: bundle exec sidekiq
       -q hackaru-api_production_default
@@ -17,7 +17,7 @@ services:
       - redis
 
   api:
-    image: hackaru/hackaru-api:1
+    image: hackaru/hackaru-api:latest
     env_file: .env.api
     command: /bin/sh -c 'rm -f tmp/pids/server.pid && rails s -b 0.0.0.0'
     ports:
@@ -27,7 +27,7 @@ services:
       - redis
 
   web:
-    image: hackaru/hackaru-web:1
+    image: hackaru/hackaru-web:latest
     env_file: .env.web
     ports:
       - 3333:3333
