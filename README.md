@@ -20,23 +20,6 @@ Hackaru is the simple time tracking application.
 - OAuth 2.0 provider support.
 - Open source. You can build on your server.
 
-## How to use?
-You can use Hackaru on the official website. It's free.
-- https://www.hackaru.app
-
-## Use Docker
-You can try Hackaru on your local in development mode using [docker-compose](https://docs.docker.com/compose/install).  
-Run below commands and access http://localhost:3333.
-
-```
-git clone https://github.com/hackaru-app/hackaru.git && \
-cd ./hackaru && \
-cp .env.api.sample .env.api && \
-cp .env.web.sample .env.web && \
-docker-compose run --rm api bin/rails db:setup && \
-docker-compose up
-```
-
 ## Repos
 - [hackaru-app/hackaru-web](https://github.com/hackaru-app/hackaru-web)
 - [hackaru-app/hackaru-api](https://github.com/hackaru-app/hackaru-api)
